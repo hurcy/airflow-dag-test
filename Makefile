@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := all
 
 wf:
-	PYTHONPATH=`pwd` python test.py
+	PYTHONPATH=`pwd` python3 test.py
 
 all: wf
