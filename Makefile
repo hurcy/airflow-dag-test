@@ -1,3 +1,6 @@
 .DEFAULT_GOAL := all
-all: 
-	date > make.out
+
+wf:
+	PYTHONPATH=`pwd`/dags python test.py
+
+all: wf
