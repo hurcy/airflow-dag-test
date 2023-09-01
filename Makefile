@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := all
 
 wf:
-	PYTHONPATH=`pwd`/dags python test.py
+	PYTHONPATH=`pwd` python test.py
 
 all: wf
