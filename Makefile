@@ -1,2 +1,2 @@
 all: 
-	echo 'Hello World'
+	date > a.out
