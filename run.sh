@@ -1,2 +1,2 @@
 #!/bin/bash
-date > a.out
+date > b.out
